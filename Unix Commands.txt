@@ -1,0 +1,70 @@
+Search for a given string in a file (case in-sensitive search).
+$ grep -i "the" demo_file
+Search for a given string in all files recursively
+$ grep -r "ramesh" *
+
+----------------------------------------------------------------------------
+1. Listing files
+
+ls	list files in current directory
+ls -l	list files in a long format
+ls -a	list all files (including hidden files) in current directory
+ls -F	adds indicators to the list output to identify directories and different types of files.
+
+2. Special characters
+
+.	the current working directory
+..	the parent directory to working directory
+~	your home directory
+/	the root (top-level) directory. This is also the separator for directories
+*	a wildcard meaning any string of characters
+?	a wildcard meaning any single character
+
+3. Files
+
+cp file1 file2	makes a copy of file1 and calls it file2
+mv file1 file2	moves (renames) file1 to file2
+rm file1	removes (deletes) file1
+rm -i file1	asks for confirmation that you want to delete file1
+
+4. Directories
+
+pwd	print the working directory
+cd dirname	change directory to the one called "dirname"
+cd ..	change to the parent directory of the current directory
+cd ~	change to your home directory
+mkdir dirname	makes a new directory with name "dirname"
+rmdir dirname	removes the directory with name "dirname". The directory must be empty
+rmdir -r dirname	recursively removes directories and subdirectories
+
+5. Text files
+
+cat file1	writes the whole of file "file1" to the terminal, also useful for concatenating files
+more file1	displays the file "file1" a page at a time
+less file1	a more versatile version of "more", but less common
+head -30 file1	show the first 30 lines
+tail -25 file1	show the last 25 lines
+tail -f file1	show the last few lines and keep updating as the file grows
+wc file1	counts lines, words and characters in a file
+
+6. Help
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
